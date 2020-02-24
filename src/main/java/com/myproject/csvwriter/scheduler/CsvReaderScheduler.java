@@ -20,10 +20,10 @@ public class CsvReaderScheduler {
     public void cronCsvReader() {
         List<String> listFolder = new ArrayList<>();
 
-        String user = "admin";
-        String host = "172.25.230.12";
-        String password = "asyst";
-        String path = "/home/admin/files";
+        String user = "usernameforsftp";
+        String host = "sftphost";
+        String password = "sftppassword";
+        String path = "/yourdirectoryname";
 
         JSch jsch = new JSch();
         Session session = null;
